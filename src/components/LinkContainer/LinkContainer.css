@@ -1,9 +1,10 @@
 .link-container{
   display: flex;
   flex-direction: column;
-
+justify-content: center;
+align-items: center;
   margin-top: 1rem;
-  min-width: 40rem;
+  width: 50rem;
 }
 
 /* 
@@ -44,8 +45,12 @@ a{
   margin: 1rem;
   font-weight: bold;
   margin: 1rem;
-  min-width: 30rem;
+  width: 40rem;
   min-height: 3rem;
 }
 
- 
+@media only screen and (max-width: 768px) {
+  a{
+    width: 20rem;
+  }
+}
