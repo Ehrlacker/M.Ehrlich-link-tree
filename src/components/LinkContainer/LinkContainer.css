@@ -4,7 +4,7 @@
 justify-content: center;
 align-items: center;
   margin-top: 1rem;
-  width: 50rem;
+  width: 41rem;
 }
 
 /* 
@@ -50,6 +50,10 @@ a{
 }
 
 @media only screen and (max-width: 768px) {
+
+  .link-container{
+    max-width: 20rem;
+  }
   a{
     width: 20rem;
   }

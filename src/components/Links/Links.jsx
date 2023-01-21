@@ -1,14 +1,11 @@
 // import { BluetoothSearchingOutlined } from "@mui/icons-material"
 
-
-
-
 const Links = [
   {
     id: 1,
     title: "Portfolio",
     link: "https://matthew-ehrlich.netlify.app/",
-    icon:'<FolderSharedIcon'
+    icon: "<FolderSharedIcon",
   },
   {
     id: 2,
@@ -30,6 +27,11 @@ const Links = [
     id: 5,
     title: "Blog",
     link: "https://medium.com/@mattcodes06",
-  }
+  },
+  {
+    id: 5,
+    title: "Podcast",
+    link: "https://open.spotify.com/show/4g08UndVH5YfVQWsiXxs9o",
+  },
 ]
 export default Links
